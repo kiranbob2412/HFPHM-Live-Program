@@ -1,0 +1,53 @@
+# Build
+build/
+build-*/
+cmake-build-*/
+out/
+dist/
+
+# Generated/runtime
+logs/
+reports/
+backups/
+cache/
+tmp/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled/binary artifacts
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+*.exe
+
+# Test/runtime output
+*.log
+*.tmp
+*.pid
+core
+core.*
+
+# Personal/media files
+*.mp3
+*.wav
+*.flac
+*.m4a
+
+# Archives
+*.zip
+*.tar.gz
+
+# Nested repositories
+**/.git/
